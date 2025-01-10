@@ -40,12 +40,11 @@ print(', '.join(str(x) for x in odd_numbers))
 print("Even: ")
 print(', '.join(str(x) for x in even_numbers))
 
-print("This is an experiment from feature Branch")
-
-
 print("This is another person editing the code")
 for i in range(1, 6):
     print("Hello World")
 
-print("This is from another branch")
+fruit_list = ["Orange", "Banana", "Grapes", "Apple", "Lemon"]
 
+for index, fruit in enumerate(fruit_list, start=1):
+    print(f"{index}. {fruit}")
